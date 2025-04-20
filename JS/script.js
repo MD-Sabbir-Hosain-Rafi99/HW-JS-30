@@ -28,3 +28,12 @@ let teamMemberInfo = {
     }
 }
 console.log(teamMemberInfo.membarOne.hobby[1]);
+
+//===========================================================================================================
+
+let {name, id, department} = {
+    name: "Rafi",
+    id: 222, 
+    department: "SWE"
+}
+console.log(id);
